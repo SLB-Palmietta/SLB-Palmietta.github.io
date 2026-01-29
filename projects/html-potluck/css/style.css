@@ -6,3 +6,7 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+li {
+    width: 900px;
+}

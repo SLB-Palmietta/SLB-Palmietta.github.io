@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+#p-1 {
+    margin: 30px;
+    background-color: #c6f4d7;
+    padding: 10px;
+}
+
+#red-mark {
+    color: red;
+    background-color: beige;
+    padding: 5px;
+    font-style: italic;
+}
+
+#green-mark {
+    color: green;
+    background-color: bisque;
+    padding: 3px;
+}

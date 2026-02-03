@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    margin-left: 10px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+/* Trial ONE */
+#p1-width {
+    width: 500px;
+}
+
+#p1-green {
+    color: green;
+}
+
+/* Trail TWO */
+#p2-width {
+    width: 500px;
+}
+
+#p2-pink1 {
+    color: #F711F7;
+}
+
+#p2-pink2 {
+    color: #F711F7;
+}
+
+/* Trial THREE */
+#p3-width {
+    width: 500px;
+}
+
+#p3-red {
+    color: red;
+}
+
+#p3-goldenrod {
+    color: goldenrod;
+}
+
+#p3-blue {
+    color: blue;
+}
+
+/* Trial FOUR */
+#p4-width {
+    width: 500px;
+}
+
+#p4-skyblue-bg {
+    background-color: skyblue;
+}
+
+/* Trial FIVE */
+#p5-width {
+    width: 500px;
+}
+
+#p5-yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+/* Trial SIX */
+#p6-width {
+    width: 490px;
+}
+
+#p6-bold1 {
+    font-weight: 700;
+}
+
+#p6-bold2 {
+    font-weight: 700;
+}
+
+/* Trial SEVEN */
+#p7-width {
+    width: 499px;
+}
+
+#p7-italic {
+    font-style: italic;
+}
+
+#p7-bold {
+    font-weight: 700;
+}
+
+#p7-italic2 {
+    font-style: italic;
+}
+
+/* Trial EIGHT */
+#p8-width {
+    width: 500px;
+}
+
+#p8-underline {
+    text-decoration: underline;
+}
+
+#p8-underline2 {
+    text-decoration: underline;
+}
+
+/* Trial NINE */
+#p9-width {
+    width: 490px;
+}
+#p9-fake-heading {
+    font-size: 36px;
+}
+
+/* Trial TEN */
+#p10-bold-small {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#p10-fake-heading {
+    font-size: 48px;
+    text-align: center;
+}
+
+#p10-fake-subheading-italic {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+}

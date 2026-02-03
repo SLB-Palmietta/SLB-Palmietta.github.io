@@ -22,6 +22,9 @@ h2 {
 /* Trial ONE */
 #p1-width {
     width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p1-green {
@@ -31,6 +34,9 @@ h2 {
 /* Trail TWO */
 #p2-width {
     width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p2-pink1 {
@@ -44,6 +50,9 @@ h2 {
 /* Trial THREE */
 #p3-width {
     width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p3-red {
@@ -61,6 +70,9 @@ h2 {
 /* Trial FOUR */
 #p4-width {
     width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p4-skyblue-bg {
@@ -70,6 +82,9 @@ h2 {
 /* Trial FIVE */
 #p5-width {
     width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p5-yellow {
@@ -78,7 +93,10 @@ h2 {
 
 /* Trial SIX */
 #p6-width {
-    width: 490px;
+    width: 492px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p6-bold1 {
@@ -91,7 +109,10 @@ h2 {
 
 /* Trial SEVEN */
 #p7-width {
-    width: 499px;
+    width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p7-italic {
@@ -109,6 +130,9 @@ h2 {
 /* Trial EIGHT */
 #p8-width {
     width: 500px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 
 #p8-underline {
@@ -122,12 +146,21 @@ h2 {
 /* Trial NINE */
 #p9-width {
     width: 490px;
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
 }
 #p9-fake-heading {
     font-size: 36px;
 }
 
 /* Trial TEN */
+#p10 {
+    background-color: #f1f2fc64;
+    padding: 1px;
+    margin-left: 10px;
+    margin-right: 180px;
+}
 #p10-bold-small {
     font-size: 12px;
     font-weight: 700;

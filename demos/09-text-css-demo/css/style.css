@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: peru;
+    /* you can take away decor, like the hyperlink color and line for example */
+}
+
+img {
+    border: solid 10px peru;
+    margin-top: 10px;
+    border-radius: 20px 50px;
+    /* you can add borders and border radiuses */
+}
+
+#font-weight {
+    font-weight: 700;  
+}
+
+#font-style {
+    font-style: oblique 70deg;
+}
+
+#text-decoration {
+    text-decoration: underline overline line-through;
+}
+
+#demo-2 {
+    text-align: center;
+}
+
+#align {
+    text-align: center;
+    background-color: antiquewhite;
+    /* use bg colors to help find where things are contained */
+}
+
+#align-left {
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#fake-header {
+    font-size: 60px;
+    font-weight: 700;
+}

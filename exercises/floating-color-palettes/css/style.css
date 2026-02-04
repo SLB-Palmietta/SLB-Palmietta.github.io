@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #4241308f;
+}
+
+h2 {
+    font-family:
+        'Trebuchet MS', 
+        'Lucida Sans Unicode', 
+        'Lucida Grande', 
+        'Lucida Sans', 
+        Arial, 
+        sans-serif
+        ;
+
+    font-weight: 500;
+    font-size: 33px;
+}
+
+h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color-palette {
+    margin: 24px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 6px 6px 12px #5b5748;
+}
+
+.white {
+    color: white;
+}
+
+.color {
+    padding: 24px;
+    margin: 0px;
+}
+
+#palette1 {
+    background: linear-gradient(0deg, #fefeef, #073236);
+}
+
+#palette2 {
+    background: linear-gradient(0deg, #f5f5e0, #142A21);
+}
+
+#palette3 {
+    background: linear-gradient(0deg, #fee4d8, #261720);
+}
+#color1-1 {
+    background-color: #FFFFFA;
+}
+
+#color1-2 {
+    background-color: #78CDD7;
+}
+
+#color1-3 {
+    background-color: #44A1A0;
+}
+
+#color1-4 {
+    background-color: #247B7B;
+}
+
+#color1-5 {
+    background-color: #0D5C63;
+}
+
+#color2-1 {
+    background-color: #EDEEC9;
+}
+
+#color2-2 {
+    background-color: #DDE7C7;
+}
+
+#color2-3 {
+    background-color: #BFD8BD;
+}
+
+#color2-4 {
+    background-color: #98C9A3;
+}
+
+#color2-5 {
+    background-color: #77BFA3;
+}
+
+#color3-1 {
+    background-color: #FAA275;
+}
+
+#color3-2 {
+    background-color: #FF8C61;
+}
+
+#color3-3 {
+    background-color: #CE6A85;
+}
+
+#color3-4 {
+    background-color: #985277;
+}
+
+#color3-5 {
+    background-color: #5C374C;
+}

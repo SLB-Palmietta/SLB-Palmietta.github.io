@@ -8,6 +8,28 @@ body {
     background-color: rgb(9, 19, 63);
 }
 
+h1 {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+#score {
+    width: 500px;
+    min-height: 130px;
+    background-color: rgb(107, 115, 116);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border: 12px outset rgb(147, 147, 147);
+    height: 150px;
+
+}
+
 #background {
     background-image: url(../images/tetrisbgblack.jpg);
     background-position: center center;

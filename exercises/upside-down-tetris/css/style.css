@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(9, 19, 63);
+}
+
+#background {
+    background-image: url(../images/tetrisbgblack.jpg);
+    background-position: center center;
+    height: 1100px;
+}
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    font-size: 0px;
+    margin: auto;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+/* PINK */
+.pink {
+    background-color: rgb(255, 70, 162);
+}
+
+.border-pink {
+    border: 12px outset rgb(244, 51, 154);
+    height: 100px;
+}
+
+.border-pink-highlight {
+    border: 8px solid rgb(244, 51, 154);
+    height: 100px;
+}
+
+/* GREEN */
+.green {
+    background-color: greenyellow;
+}
+
+.border-green {
+    border: 12px outset rgb(139, 240, 31);
+    height: 100px;
+}
+
+/* CYAN */
+.cyan {
+    background-color: cyan;
+}
+
+.border-cyan {
+    border: 12px outset rgb(32, 239, 239);
+    height: 100px;
+}
+
+.border-cyan-highlight {
+    border: 8px solid rgb(51, 241, 244);
+    height: 100px;
+}
+
+/* YELLOW */
+.yellow {
+    background-color: rgb(255, 255, 0);
+}
+
+.border-yellow {
+    border: 12px outset rgb(244, 248, 23);
+    height: 100px;
+}

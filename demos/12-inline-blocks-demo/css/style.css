@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.narrow {
+    width: 200px;
+    display: inline-block;
+    background-color: beige;
+    padding: 20px;
+}
+
+.idea1 {
+    display: inline-block;
+}
+
+.media {
+    vertical-align: middle;
+}
+
+.media-text {
+    width: 200px;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.media-text h4 {
+    margin-top: 0px;
+}
+
+.media-text p {
+    margin-top: 0px;
+}
+
+#threecolumn {
+    text-align: center;
+}
+.column {
+    width: 200px;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}

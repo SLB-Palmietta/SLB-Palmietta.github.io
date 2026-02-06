@@ -72,6 +72,35 @@
 .cross-out {
     text-decoration: line-through;
 }
+
+.pin {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.p-one {
+    background-color: rgb(208, 81, 81);
+    box-shadow: 1px 1px 3px rgb(44, 94, 47);
+}
+
+.p-two {
+    background-color: rgb(235, 127, 12);
+    box-shadow: 1px 1px 3px rgb(22, 68, 115);
+}
+
+.p-three {
+    background-color: rgb(195, 81, 208);
+    box-shadow: 1px 1px 3px rgb(71, 75, 33);
+}
+
+.p-five {
+    background-color: rgb(53, 143, 226);
+    box-shadow: 1px 1px 3px rgb(94, 75, 40);
+    
+}
 #todo-list {
     font-size: large;
 }
@@ -80,6 +109,7 @@
     text-align: center;
     border-bottom: solid;
     padding-bottom: 10px;
+    margin-top: 10px;
 }
 
 #quote {

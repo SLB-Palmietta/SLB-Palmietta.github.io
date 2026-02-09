@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    /* border-width: 3px;
+    border-style: solid;
+    border-color: red; */
+    border: 10px dashed red;
+    margin: 24px 0px;
+    padding: 40px 64px;
+    background-color: gold;
+}
+
+p {
+    border: 10px dotted blue;
+    margin: 60px;
+    padding: 40px 60px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+}
+
+a {
+    background-color: red;
+    padding: 10px;
+}
+
+span {
+    background-color: red;
+    padding: 10px;
+}

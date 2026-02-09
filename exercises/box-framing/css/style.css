@@ -5,7 +5,9 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: rgb(189, 193, 171);
+    background-image: url(../images/wall2.webp);
+    background-size: cover;
+    background-position: center;
 }
 
 .canvas {
@@ -16,6 +18,10 @@ body {
 
 .shadow {
     box-shadow: 3px 5px 5px rgb(124, 130, 103);
+}
+
+#container {
+    margin-left: 700px; 
 }
 
 #image1 {

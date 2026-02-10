@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#sidebar {
+    background-color: #333333;
+    color: white;
+    width: 500px;
+    min-height: 100vh;
+    padding: 24px;
+    display: inline-block;
+}
+
+#sidebar li {
+    padding-bottom: 5px;
+}
+
+#sidebar ul {
+    margin-bottom: 20px;
+}
+
+#sidebar h4 {
+    border-bottom: solid;
+    padding-bottom: 10px;
+}
+
+#sidebar li.chapter {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#sidebar li.edit {
+    color: orange;
+    font-style: italic;
+}
+
+#sidebar li.chapter.edit {
+    color: red;
+}
+
+/* CHALLENGE */
+#sidebar + div {
+    display: inline-block;
+    vertical-align: middle;
+    width: 800px;
+    min-height: 95vh;
+    padding: 24px;
+}
+
+#sidebar + div p.chapter {
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: solid;
+    padding-bottom: 10px;
+}

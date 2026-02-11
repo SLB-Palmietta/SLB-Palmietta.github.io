@@ -58,7 +58,8 @@ li {
 }
 
 .important {
-    font-weight: bold; color: rgb(190, 2, 2);
+    font-weight: bold; 
+    color: rgb(190, 2, 2);
 }
 
 .completed.important {

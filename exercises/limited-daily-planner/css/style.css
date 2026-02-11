@@ -79,3 +79,23 @@ li {
     padding: 5px 15px;
     margin-left: 10px;
 }
+
+.button:hover {
+    transition-duration: .5s;
+    background-color: rgba(110, 238, 72, 0.524);
+    color: #279027;
+    border-color: #0a5a0a;
+}
+
+.button:active {
+    background-color: rgba(123, 123, 123, 0.573);
+    color: #6d6d6d;
+    border-color: #373737;
+}
+
+.button:focus {
+    background-color: rgba(255, 255, 255, 0);
+    color: #000000;
+    border-color: #373737;
+    text-decoration: line-through;
+}

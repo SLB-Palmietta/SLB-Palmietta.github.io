@@ -43,8 +43,13 @@ body {
     min-width: 100px;
     text-align: center;
     display: block;
+    transition: background-color .5s, color .5s;
 }
 
+.border:hover {
+    background-color: black;
+    color: white;
+}
 .media-text {
     display: inline-block;
     width: 200px;

@@ -53,21 +53,29 @@ li {
     padding: 15px 30px;
 }
 
-.completed {
+#morning li.completed,
+#afternoon li.completed,
+#evening li.completed {
     text-decoration: line-through;
 }
 
-.important {
+#morning li.important,
+#afternoon li.important,
+#evening li.important {
     font-weight: bold; 
     color: rgb(190, 2, 2);
 }
 
-.completed.important {
+#morning li.completed.important,
+#afternoon li.completed.important,
+#evening li.completed.important {
     background-color: #fff04e;
     margin-right: 180px;
 }
 
-.button {
+#morning .button,
+#afternoon .button,
+#evening .button {
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -80,20 +88,26 @@ li {
     margin-left: 10px;
 }
 
-.button:hover {
+#morning .button:hover,
+#afternoon .button:hover,
+#evening .button:hover {
     transition-duration: .5s;
     background-color: rgba(110, 238, 72, 0.524);
     color: #279027;
     border-color: #0a5a0a;
 }
 
-.button:active {
+#morning .button:active,
+#afternoon .button:active,
+#evening .button:active {
     background-color: rgba(123, 123, 123, 0.573);
     color: #6d6d6d;
     border-color: #373737;
 }
 
-.button:focus {
+#morning .button:focus,
+#afternoon .button:focus,
+#evening .button:focus {
     background-color: rgba(255, 255, 255, 0);
     color: #000000;
     border-color: #373737;

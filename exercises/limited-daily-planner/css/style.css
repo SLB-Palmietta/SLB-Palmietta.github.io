@@ -19,6 +19,7 @@ body {
     background-color: #fafaa1;
     margin: 24px;
     padding: 12px 24px;
+    width: 700px;
 }
 
 #morning ul {
@@ -33,6 +34,7 @@ body {
     background-color: #a1e4fa;
     margin: 24px;
     padding: 12px 24px;
+    width: 700px;
 }
 
 #afternoon ul {
@@ -47,6 +49,7 @@ body {
     background-color: #d9a1fa;
     margin: 24px;
     padding: 12px 24px;
+    width: 700px;
 }
 
 #evening ul {

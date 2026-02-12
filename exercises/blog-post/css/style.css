@@ -4,8 +4,12 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
-    background-color: rgb(32, 58, 64);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgb(32, 58, 64); */
+    background-image: url(../images/background2.webp);
+    background-position: center;
+    background-size: cover;
+    
 }
 
 #container {
@@ -13,14 +17,22 @@ body {
     max-width: 908px;
     min-width: 908px;
     margin: 0px auto;
-    border: 5px solid cadetblue;
+    border: 15px solid rgb(209, 221, 221);
     border-radius: 20px;
-    background-color: rgb(213, 221, 209);
-    padding: 50px 50px;
+    background-color: rgb(58, 87, 88);
+    padding: 50px 20px;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 50px;
     margin-bottom: 50px;
+    color: white;
+}
+
+#container2 {
+    background-color: rgb(32, 67, 74);
+    padding: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -35,11 +47,17 @@ ul {
 }
 
 ul li {
-    width: 700px;
+    width: 600px;
     padding: 5px;
 }
 
 .images {
     width: 800px;
     margin: 15px 0px;
+}
+
+.underline {
+    border-bottom: solid cadetblue;
+    margin-right: 200px;
+    padding-bottom: 5px;
 }

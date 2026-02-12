@@ -7,6 +7,38 @@ body {
     font-family: sans-serif;
 }
 
+#container {
+    width: 50%;
+    max-width: 908px;
+    min-width: 908px;
+    margin: 0px auto;
+    border: 5px solid cadetblue;
+    border-radius: 20px;
+    background-color: rgb(213, 221, 209);
+    padding: 50px 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    width: 800px;
+    max-width: 800px;
+    min-width: 800px;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-bottom: 5px;
+}
+
+ul li {
+    width: 700px;
+    padding: 5px;
+}
+
 .images {
     width: 800px;
+    margin: 15px 0px;
 }

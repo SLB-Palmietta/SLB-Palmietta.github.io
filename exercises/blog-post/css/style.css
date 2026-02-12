@@ -55,9 +55,13 @@ ul li {
     padding: 5px;
 }
 
-.images {
+.image-top {
     width: 800px;
     border-radius: 5px 5px 0px 0px;
+}
+
+.images {
+    width: 800px;
 }
 
 .underline {

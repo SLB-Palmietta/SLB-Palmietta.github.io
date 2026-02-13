@@ -9,13 +9,14 @@ body {
     font-family: sans-serif;
 }
 
-h1 {
+#header {
     text-align: center;
     margin-top: 0%;
     margin-bottom: 100px;
     font-family: "Merriweather Sans", sans-serif;
     font-weight: 800;
     font-size: 50px;
+    text-decoration: none;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
 h3 {
     text-align: center;
     font-size: larger;
-    margin-top: 35px;
+    margin-top: 50px;
     font-family: "Merriweather Sans", sans-serif;
 }
 
@@ -89,7 +90,8 @@ a {
 }
 
 .single-column {
-    margin: 0px auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 5000px;
 }
 
@@ -98,7 +100,7 @@ a {
     border: 3px solid white;
     border-radius: 20px;
     padding: 15px;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -131,6 +133,7 @@ a {
     max-width: 150px;
     padding-top: 45px;
     padding-bottom: 45px;
+    font-family: "Winky Sans", sans-serif;
 }
 
 .cta:hover {

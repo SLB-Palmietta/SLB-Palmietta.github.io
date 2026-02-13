@@ -53,23 +53,39 @@ a {
 }
 
 #container1 {
-    background-color: rgb(252, 153, 180);
+    background-color: #fc99b4;
     padding: 48px 0px;
 }
 
 #container2 {
-    background-color: rgb(104, 222, 134);
+    background-color: #68de86;
     padding: 48px 0px;
 }
 
 #container3 {
-    background-color: rgb(255, 204, 108);
+    background-color: #ffcc6c;
     padding: 48px 0px;
 }
 
 #container4 {
-    background-color: rgb(110, 222, 209);
+    background-color: #6eded1;
     padding: 48px 0px;
+}
+
+#p1 {
+    color: #522B36;
+}
+
+#p2 {
+    color: #223427;
+}
+
+#p3 {
+    color: #554C3D;
+}
+
+#p4 {
+    color: #213432;
 }
 
 .single-column {
@@ -99,4 +115,10 @@ a {
     max-width: 150px;
     padding-top: 45px;
     padding-bottom: 45px;
+}
+
+.cta:hover {
+    color: white;
+    border-color: white;
+    background-color: rgba(0, 255, 255, 0);
 }

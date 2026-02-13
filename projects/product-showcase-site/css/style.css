@@ -41,9 +41,15 @@ p {
 }
 
 img {
+    display: block;
     width: 460px;
-    margin-top: 70px;
-    
+    padding-top: 45px;
+    margin: 0px auto;
+}
+
+a {
+    display: block;
+    margin: 0px auto;
 }
 
 #container1 {
@@ -61,14 +67,14 @@ img {
     padding: 48px 0px;
 }
 
+#container4 {
+    background-color: rgb(110, 222, 209);
+    padding: 48px 0px;
+}
+
 .single-column {
     margin: 0px auto;
     max-width: 5000px;
-}
-
-a {
-    display: inline-block;
-    margin: 0px auto;
 }
 
 .cta {
@@ -76,12 +82,21 @@ a {
     border: 3px solid white;
     border-radius: 20px;
     padding: 15px;
-    font-size: larger;
+    font-size: 22px;
     font-weight: bold;
     text-decoration: none;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 
 .white {
     color: white;
+}
+
+.button {
+    margin: 0px auto;
+    min-width: 200px;
+    max-width: 150px;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }

@@ -128,6 +128,26 @@ a {
     color: white;
 }
 
+.d-pink {
+    color: #522B36;
+}
+
+.d-green {
+    color: #223427;
+}
+
+.d-yellow {
+    color: #554C3D;
+}
+
+.yellow {
+    color: #fffef0;
+}
+
+.d-blue {
+    color: #213432;
+}
+
 .button {
     margin: 0px auto;
     min-width: 200px;

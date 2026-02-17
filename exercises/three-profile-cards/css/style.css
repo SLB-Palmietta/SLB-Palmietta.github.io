@@ -8,33 +8,50 @@ body {
 }
 
 #single-column {
-    width: 90vw;
+    width: 100vw;
     max-width: 1200px;
     margin: 0px auto;
 }
 
 .card-container {
     display: flex;
+    gap: 40px;
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     border: 3px solid gray;
+    border-radius: 25px;
     margin: 36px 0px;
-    padding: 36px;
+    padding: 40px 55px;
     flex: 1;
     text-align: center;
 }
 
 .card a {
     display: block;
-    background-color: aliceblue;
     border: 2px solid;
-    border-radius: 5px;
-    padding: 20px 15px;
-    margin: 0px 50px;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.card h3 {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 18px;
+    flex: 1;
 }
 
 .images {
-    width: 200px;
+    width: 250px;
     border-radius: 50%;
+    padding: 12px;
+    margin-top: 24px;
 }

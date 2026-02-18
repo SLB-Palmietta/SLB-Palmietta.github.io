@@ -22,7 +22,7 @@ body {
 .recipe-intro {
     display: flex;
     gap: 46px;
-    margin-top: 30px;
+    margin-top: 50px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     padding: 46px 0px;
@@ -64,13 +64,22 @@ body {
 .text-container .button {
     display: block;
     width: 170px;
-    font-size: 15px;
+    font-size: 13px;
+    font-weight: bold;
     text-decoration: none;
+    letter-spacing: 1px;
     text-align: center;
     color: white;
     background-color: black;
     padding: 14px;
     margin-top: 24px;
+}
+
+.button:hover {
+    transition-duration: 1.5s;
+    color: black;
+    border-color: black;
+    background-color: rgb(237, 233, 220);
 }
 
 .text-container #text {

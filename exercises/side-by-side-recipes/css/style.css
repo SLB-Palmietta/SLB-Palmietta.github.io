@@ -15,11 +15,11 @@ body {
 
 .recipe-intro {
     display: flex;
-    gap: 36px;
+    gap: 46px;
     margin-top: 30px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
-    padding: 36px 0px;
+    padding: 46px 0px;
 }
 
 .recipe-intro .image-container img {
@@ -29,6 +29,28 @@ body {
     width: 515px;
 }
 
-.recipe-intro .text-container {
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
 
+.text-container h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.text-container h3 {
+    font-weight: lighter;
+}
+
+.text-container .row p {
+    margin: 5px 0px;
+    font-size: small;
+    
+}
+
+.text-container span {
+    font-weight: bold;
+    font-size: small;
 }

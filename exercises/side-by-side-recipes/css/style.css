@@ -7,6 +7,12 @@ body {
     font-family: sans-serif;
 }
 
+#header {
+    padding: 42px 0px;
+    font-size: 40px;
+    text-align: center;
+}
+
 #single-column {
     width: 90vw;
     max-width: 1200px;
@@ -53,4 +59,31 @@ body {
 .text-container span {
     font-weight: bold;
     font-size: small;
+}
+
+.text-container #text {
+    margin: 20px 0px;
+}
+
+.three-cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.three-cards .card img {
+    width: 240px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card p {
+    width: 240px;
+    text-align: center;
+    font-size: larger;
+    font-weight: lighter;
 }

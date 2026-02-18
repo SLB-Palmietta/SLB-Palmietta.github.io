@@ -8,8 +8,9 @@ body {
 }
 
 #header {
-    padding: 10px 0px;
-    font-size: 38px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+    font-size: 36px;
     text-align: center;
     font-family: serif;
 }
@@ -43,7 +44,7 @@ body {
 }
 
 .text-container h1 {
-    font-size: 38px;
+    font-size: 36px;
     font-family: serif;
     margin-top: 0px;
     margin-bottom: 15px;
@@ -75,15 +76,15 @@ body {
     text-align: center;
     color: white;
     background-color: black;
-    padding: 14px;
+    padding: 10px;
     margin-top: 15px;
 }
 
 .button:hover {
-    transition-duration: 1.5s;
+    transition-duration: 1s;
     color: black;
     border-color: black;
-    background-color: rgb(237, 233, 220);
+    background-color: rgb(241, 237, 223);
 }
 
 .text-container #text {
@@ -112,6 +113,11 @@ body {
 .card p {
     width: 240px;
     text-align: center;
-    font-size: larger;
+    font-size: 17px;
     font-weight: lighter;
+    padding-top: 7px;
+}
+
+.card .imgbutton:hover {
+    opacity: 0.6;
 }

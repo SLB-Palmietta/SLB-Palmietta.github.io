@@ -53,6 +53,7 @@ body {
 .text-container .row p {
     margin: 5px 0px;
     font-size: small;
+    letter-spacing: 0.8px;
 }
 
 .text-container span {
@@ -62,9 +63,10 @@ body {
 
 .text-container .button {
     display: block;
-    width: 180px;
-    font-size: large;
+    width: 170px;
+    font-size: 15px;
     text-decoration: none;
+    text-align: center;
     color: white;
     background-color: black;
     padding: 14px;
@@ -73,6 +75,8 @@ body {
 
 .text-container #text {
     margin: 20px 0px;
+    line-height: 24px;
+    letter-spacing: 0.7px;
 }
 
 .three-cards {

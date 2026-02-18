@@ -47,3 +47,22 @@ body {
 #card1 {
     order: 2;
 }
+
+.side-by-side-container {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.side-by-side-container img,
+.side-by-side-conatiner h2 {
+    flex: 1;
+}
+
+.side-by-side-container .image-container img {
+    width: 100%;
+}
+
+.side-by-side-container h2 {
+    font-size: 60px;
+}

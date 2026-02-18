@@ -65,4 +65,10 @@ body {
 
 .side-by-side-container h2 {
     font-size: 60px;
+    margin-bottom: 0px;
+}
+
+.side-by-side-container, 
+.text-container p {
+    font-size: 24px;
 }

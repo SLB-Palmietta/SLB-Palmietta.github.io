@@ -53,12 +53,22 @@ body {
 .text-container .row p {
     margin: 5px 0px;
     font-size: small;
-    
 }
 
 .text-container span {
     font-weight: bold;
     font-size: small;
+}
+
+.text-container .button {
+    display: block;
+    width: 180px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 14px;
+    margin-top: 24px;
 }
 
 .text-container #text {

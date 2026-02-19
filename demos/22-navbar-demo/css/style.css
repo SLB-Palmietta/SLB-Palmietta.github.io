@@ -11,6 +11,8 @@ body {
     background: linear-gradient(to bottom, green, rgb(11, 80, 11));
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 #navbar a {
@@ -32,4 +34,13 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+}
+
+#centered-column {
+    width: 500px;
+    margin: 0px auto;
+}
+
+p {
+    font-size: 20px;
 }

@@ -6,3 +6,30 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#navbar {
+    background: linear-gradient(to bottom, green, rgb(11, 80, 11));
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 26px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar .cta {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}

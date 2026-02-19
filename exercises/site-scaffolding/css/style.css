@@ -7,19 +7,22 @@ body {
     font-family: sans-serif;
 }
 
-#container #navbar a {
-    display: flex;
-    max-width: 500px;
+#container {
     margin: 0px auto;
+    background: linear-gradient(to bottom, #ffab51, #fff98a, #87d5ff);
+    border-top: 3px solid #ff9100;
+    border-bottom: 3px solid #07648f;
+}
+
+#nav-container {
+    margin: 0px auto;
+    width: 800px;
     text-align: center;
 }
 
 #navbar {
     display: flex;
-    background: linear-gradient(to bottom, #ffab51, #fff98a, #87d5ff);
     align-items: center;
-    border-top: 3px solid #ff9100;
-    border-bottom: 3px solid #07648f;
     justify-content: center;
 }
 

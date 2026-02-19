@@ -48,9 +48,16 @@ body {
 }
 
 #centered-column {
-    width: 500px;
+    width: 800px;
     margin: 0px auto;
     text-align: center;
+    padding: 12px 0px;
+}
+
+#centered-column p {
+    width: 800px;
+    margin: 0px auto;
+    text-align: left;
     padding: 12px 0px;
 }
 

@@ -61,6 +61,16 @@ body {
     color: white;
 }
 
+#sidebar-content li a:hover {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+#sidebar-content li a:active {
+    text-decoration: none;
+    color: rgba(180, 224, 225, 0.665);
+}
+
 #sidebar-content .sb-containers {
     border: 5px solid rgb(32, 67, 74);
     border-radius: 20px;

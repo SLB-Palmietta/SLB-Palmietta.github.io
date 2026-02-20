@@ -18,6 +18,11 @@ body {
     justify-content: center;
 }
 
+#sticky-sb {
+    position: sticky;
+    top: 24px;
+}
+
 #sidebar-content {
     padding-top: 50px;
     width: 250px;

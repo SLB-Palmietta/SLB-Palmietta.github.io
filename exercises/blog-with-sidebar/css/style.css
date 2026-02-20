@@ -14,14 +14,59 @@ body {
 
 #two-columns {
     display: flex;
-    flex: 1;
+    gap: 40px;
+    justify-content: center;
+}
+
+#sidebar-content {
+    padding-top: 50px;
+    width: 250px;
+}
+
+#sidebar-content h2 {
+    font-size: 18px;
+    background-color: rgb(32, 67, 74);
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 18px 24px;
+    margin: 0px;
+}
+
+#sidebar-content ul {
+    list-style: none;
+    margin: 0px 0px;
+    padding: 5px 15px;
+    background-color: rgb(58, 87, 88);
+    border: 5px solid rgb(58, 87, 88);
+    border-radius: 0px 0px 13px 13px;
+}
+
+#sidebar-content li {
+    width: 200px;
+    padding: 12px 6px;
+    border-bottom: 1px solid cadetblue;
+}
+
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
+
+#sidebar-content li a {
+    text-decoration: none;
+    color: white;
+}
+
+#sidebar-content .sb-containers {
+    border: 5px solid rgb(32, 67, 74);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding-bottom: 0px;
 }
 
 #container {
     width: 50%;
     max-width: 908px;
     min-width: 908px;
-    margin: 0px auto;
     border: 15px solid rgb(209, 221, 221);
     border-radius: 20px;
     background-color: rgb(58, 87, 88);

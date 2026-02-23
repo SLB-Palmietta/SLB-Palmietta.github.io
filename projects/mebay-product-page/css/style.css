@@ -14,7 +14,11 @@ body {
 }
 
 #thumbnail-column {
+    display: flex;
     width: 100px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
 #thumbnail-column img {

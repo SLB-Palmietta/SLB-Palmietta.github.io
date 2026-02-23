@@ -6,3 +6,89 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: rgb(84, 123, 158);
+}
+
+#thumbnail-column {
+    width: 100px;
+    background-color: aqua;
+}
+
+#thumbnail-column img{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#featured-image-column {
+    flex: 1;
+}
+
+#featured-image-column img {
+    width: 100%;
+}
+
+#product-info-column {
+    width: 400px;
+    background-color: aliceblue;
+}
+
+#seller-info {
+    width: 400px;
+}
+
+#product-name {
+    margin-bottom: 5px;
+}
+
+#product-name h1 {
+    margin: 0px;
+    background-color: rgb(147, 183, 215);
+    padding-bottom: 15px;
+}
+
+#seller-info2 {
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(153, 153, 153);
+    padding: 24px 0px;
+}
+
+#name {
+    margin-bottom: 8px;
+}
+
+#seller-info2 #name {
+    margin-bottom: 12px;
+}
+
+#seller-info2 #name a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#seller-info2 span {
+    font-size: 16px;
+    color: gray;
+}
+
+#seller-info2 a.info {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+#condition h3{
+    font-size: large;
+}
+
+#condition span{
+    font-weight: normal;
+}

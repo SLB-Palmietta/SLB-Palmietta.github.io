@@ -80,6 +80,19 @@ body {
     font-weight: normal;
 }
 
+#seller-info2 .info.dot::before {
+    content: " ";
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin-left: 4px;
+    margin-right: 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+    background-color: rgb(178, 178, 178);
+
+}
+
 #condition h3{
     font-size: large;
 }

@@ -17,7 +17,7 @@ body {
     width: 100px;
 }
 
-#thumbnail-column img{
+#thumbnail-column img {
     width: 100%;
     margin-bottom: 10px;
 }
@@ -93,11 +93,11 @@ body {
 
 }
 
-#condition h3{
+#condition h3 {
     font-size: large;
 }
 
-#condition span{
+#condition span {
     font-weight: normal;
 }
 
@@ -105,7 +105,7 @@ body {
     font-size: 35px;
 }
 
-#buttons a{
+#buttons a {
     display: block;
     background-color: rgb(11, 105, 255);
     border: 1px solid rgb(11, 105, 255);

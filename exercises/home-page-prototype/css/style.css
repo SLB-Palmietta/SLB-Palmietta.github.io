@@ -13,7 +13,7 @@ body {
     top: 0px;
 }
 
-#nav-container #nav-content{
+#nav-container #nav-content {
     display: flex;
     align-items: center;
     background-color: rgb(41, 31, 22);

@@ -65,7 +65,12 @@ body {
 }
 
 #contrast {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.428), rgba(255, 255, 255, 0.211));
+    background: linear-gradient(
+        0deg, 
+        rgba(0, 0, 0, 0.27), 
+        rgba(0, 0, 0, 0.428), 
+        rgba(255, 255, 255, 0.211)
+    );
     width: 99.4vw;
 }
 

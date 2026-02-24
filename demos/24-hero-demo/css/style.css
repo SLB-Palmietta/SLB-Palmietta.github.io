@@ -9,9 +9,34 @@ body {
 
 #centered-hero {
     background-image: url(../images/stars-on-velvet.jpg);
-    color: white;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #centered-hero .hero-content {
-    background-color: rgba(255, 255, 255, 0.332);
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+}
+
+.hero-content h3 {
+    font-size: 24px;
+}
+
+#side-hero {
+    background-image: url(../images/lonely-ocean.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10%;
 }

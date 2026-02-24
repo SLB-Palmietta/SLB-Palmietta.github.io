@@ -8,9 +8,39 @@ body {
 }
 
 #nav-container {
+    background-color: rgb(41, 31, 22);
+    position: sticky;
+    top: 0px;
+}
+
+#nav-container #nav-content{
     display: flex;
-    background-color: rgb(130, 172, 209);
+    align-items: center;
+    background-color: rgb(41, 31, 22);
     padding: 25px;
+}
+
+#nav-content {
+    width: 1408.16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav-container a {
+    text-decoration: none;
+}
+
+#nav-container .links {
+    padding: 0px 25px;
+    color: white;
+    font-size: large;
+}
+
+#nav-container #brand {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
 }
 
 #hero-container {
@@ -25,6 +55,20 @@ body {
     gap: 80px;
 }
 
+#hero-content #contrast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+    height: 100vh;
+}
+
+#contrast {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.428), rgba(255, 255, 255, 0.211));
+    width: 99.4vw;
+}
+
 h1 {
     margin: 0px;
     font-size: 72px;
@@ -36,13 +80,27 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    margin-top: 30px;
 }
 
 #buttons a {
     color: white;
     text-decoration: none;
     font-size: 24px;
-    background-color: rgb(56, 44, 35);
+    background-color: rgb(177, 155, 136);
+    border: 2px solid rgb(206, 190, 169);
     border-radius: 24px;
-    padding: 24px;
+    padding: 14px 50px;
+}
+
+#buttons a:hover {
+    color: rgba(255, 255, 255, 0.862);
+    background-color: rgba(192, 165, 142, 0.736);
+    border-color: rgba(255, 255, 255, 0.459);
+}
+
+#buttons a:active {
+    color: rgba(56, 48, 41, 0.862);
+    background-color: rgba(203, 185, 169, 0.736);
+    border-color: rgba(255, 255, 255, 0.872);
 }

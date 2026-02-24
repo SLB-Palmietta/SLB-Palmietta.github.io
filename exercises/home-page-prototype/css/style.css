@@ -6,3 +6,43 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#nav-container {
+    display: flex;
+    background-color: rgb(130, 172, 209);
+    padding: 25px;
+}
+
+#hero-container {
+    background-image: url(../images/potteryhero.webp);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 72px;
+    color: white;
+}
+
+#buttons {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#buttons a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    background-color: rgb(56, 44, 35);
+    border-radius: 24px;
+    padding: 24px;
+}

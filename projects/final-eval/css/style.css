@@ -8,6 +8,14 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
 #single-column {
     max-width: 1000px;
     margin: 48px auto;
@@ -15,13 +23,24 @@ body {
 
 #top-text {
     text-align: center;
+    padding-bottom: 50px;
 }
 
 #teams {
     display: flex;
-    gap: 80px;
+    gap: 50px;
+    justify-content: center;
 }
 
 #teams img {
-    width: 300px;
+    width: 400px;
+}
+
+#teams h1 {
+    display: flex;
+    align-items: center;
+}
+
+#teams h2 {
+    text-align: center;
 }

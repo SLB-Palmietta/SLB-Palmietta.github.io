@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#single-column {
+    max-width: 1000px;
+    margin: 48px auto;
+}
+
+#top-text {
+    text-align: center;
+}
+
+#teams {
+    display: flex;
+    gap: 80px;
+}
+
+#teams img {
+    width: 300px;
+}

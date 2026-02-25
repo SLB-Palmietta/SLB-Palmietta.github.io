@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Racing+Sans+One&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -9,21 +9,53 @@ body {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 90px;
+    font-family: "Racing Sans One", sans-serif;
+    margin: 0px;
+    color: white;
 }
 
 h2 {
+    font-size: 56px;
+    color: white;
+}
+
+h3 {
     font-size: 34px;
+    color: white;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
 }
 
 #single-column {
     max-width: 1000px;
     margin: 48px auto;
+    background: linear-gradient(
+        180deg, 
+        rgb(3, 3, 50), 
+        rgb(229, 78, 3),  
+        rgb(3, 3, 50)
+    );
 }
 
 #top-text {
     text-align: center;
-    padding-bottom: 50px;
+    padding: 1px 0px;
+    color: white;
+}
+
+#top-text h4 {
+    margin-bottom: 0px;
+}
+
+#top-text h3 {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 2px;
 }
 
 #teams {
@@ -33,14 +65,42 @@ h2 {
 }
 
 #teams img {
-    width: 400px;
-}
-
-#teams h1 {
-    display: flex;
-    align-items: center;
+    width: 350px;
 }
 
 #teams h2 {
+    display: flex;
+    padding-top: 150px;
+    font-family: "Anton SC", sans-serif;
+}
+
+#teams h3 {
     text-align: center;
+    font-family: "Racing Sans One", sans-serif;
+    letter-spacing: 1px;
+}
+
+#bottom-text {
+    text-align: center;
+    width: 900px;
+    margin: 0px auto;
+    padding-bottom: 1px;
+}
+
+#bottom-text h2 {
+    font-family: "Anton SC", sans-serif;
+    letter-spacing: 2px;
+}
+
+#bottom-text #number {
+    padding-top: 13px;
+}
+
+#ctas a {
+    font-size: 24px;
+    text-decoration: none;
+    background-color: rgb(229, 78, 3);
+    padding: 10px 85px;
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(126, 40, 0);
 }

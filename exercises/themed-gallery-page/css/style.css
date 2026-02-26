@@ -17,11 +17,14 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 5%;
 }
 
-#hero .hero-content {
-    background-image: linear-gradient(to left red black green);
+#hero .gradient {
+    background: linear-gradient(90deg,  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.87));
+    padding: 72px;
+    text-align: end;
+    width: 100vw;
+    height: 80vh;
 }
 
 #hero h1 {

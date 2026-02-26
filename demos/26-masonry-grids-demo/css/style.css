@@ -44,14 +44,28 @@ body {
     object-fit: cover;
 }
 
-/* Masonry Gallery Flexbox */
+/* Masonry Grid Gallery Flexbox */
 
 .masonry-horizontal-gallery {
-    background-color: beige;
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
 .masonry-horizontal-gallery img {
     height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+/* Masonry Grid Vertical Columns */
+
+.masonry-vertical-gallery {
+    columns: 3 auto;
+    column-gap: 24px;
+}
+
+.masonry-vertical-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
 }

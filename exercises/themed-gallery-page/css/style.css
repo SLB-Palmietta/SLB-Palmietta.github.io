@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    /* background-color: rgb(20, 29, 24); */
+    background-color: black;
+}
+
+#hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    height: 80vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5%;
+}
+
+#hero .hero-content {
+    background-image: linear-gradient(to left red black green);
+}
+
+#hero h1 {
+    color: white;
+    font-size: 80px;
+    text-align: end;
+    margin: 0px;
+}
+
+#hero h3 {
+    color: white;
+    font-size: 40px;
+}
+
+#centered-single-column {
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 15px;
+}
+
+#gallery img {
+    object-fit: cover;
+    flex: 1;
+    height: 250px;
+    object-position: bottom;
+}
+
+#gallery img.percent {
+    object-position: 10%;
+}
+
+#gallery img.top {
+    object-position: top;
+}

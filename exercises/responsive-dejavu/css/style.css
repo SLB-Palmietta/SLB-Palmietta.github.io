@@ -107,9 +107,9 @@ body {
 
 /* !!!!!!!!!!!!!!!!TABLET BREAKPOINT!!!!!!!!!!!!!! */
 
-@media screen and (max-width: 600px) {
-    body {
-        background-color: rgb(10, 80, 142);
+@media screen and (max-width: 650px) {
+    #navbar {
+        flex-direction: column;
     }
 
     #navbar a {
@@ -130,6 +130,7 @@ body {
     }
 
     #hero .gradient {
+        justify-content: center;
         align-items: flex-start;
     }
 }
@@ -137,10 +138,6 @@ body {
 /* !!!!!!!!!!!!!!!!MEDIA BREAKPOINT ONE !!!!!!!!!!!!!! */
 
 @media screen and (max-width: 450px) {
-    body {
-        background-color: red;
-    }
-
     #navbar {
         flex-direction: column;
     }
@@ -162,10 +159,6 @@ body {
 /* !!!!!!!!!!!!!!!!MEDIA BREAKPOINT TWO !!!!!!!!!!!!!! */
 
 @media screen and (max-width: 400px) {
-    body {
-        background-color: rgb(8, 0, 255);
-    }
-
     #navbar {
         flex-direction: column;
     }

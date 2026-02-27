@@ -12,17 +12,23 @@ body {
 #navbar {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 24px;
 }
 
 #navbar a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    padding: 0px 15px;
 }
 
-/* #navbar .links {
-    
-} */
+#navbar #logo {
+    font-size: 32px;
+    font-weight: bold;
+    padding: 24px;
+    margin-right: auto;
+}
 
 #hero {
     background-image: url(../images/hero.jpg);
@@ -82,4 +88,12 @@ body {
 
 #gallery img.top {
     object-position: top;
+}
+
+/* !!!!!!!!!!!!!!!!MEDIA QUERIE!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(10, 80, 142);
+    }
 }

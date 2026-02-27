@@ -27,7 +27,7 @@ body {
     font-size: 32px;
     font-weight: bold;
     padding: 24px;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 #hero {
@@ -90,10 +90,56 @@ body {
     object-position: top;
 }
 
-/* !!!!!!!!!!!!!!!!MEDIA QUERIE!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!TABLET BREAKPOINT!!!!!!!!!!!!!! */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
     body {
         background-color: rgb(10, 80, 142);
+    }
+
+    #navbar a {
+        font-size: 18px;
+    }
+
+    #logo {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #hero h3 {
+        font-size: 24px;
+    }
+
+    #hero .gradient {
+        align-items: flex-start;
+    }
+}
+
+/* !!!!!!!!!!!!!!!!MEDIA BREAKPOINT!!!!!!!!!!!!!! */
+
+@media screen and (max-width: 450px) {
+    body {
+        background-color: red;
+    }
+
+    #navbar {
+        flex-direction: column;
+    }
+
+    #hero h1 {
+        font-size: 40px;
+    }
+
+    #hero h3 {
+        font-size: 16px;
+    }
+
+    #hero .gradient {
+        text-align: center;
+        justify-content: center;
     }
 }

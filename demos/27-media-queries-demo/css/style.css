@@ -46,9 +46,9 @@ body {
 /* TABLET BREAKPOINT */
 
 @media screen and (max-width: 640px) {
-    body {
+    /* body {
         background-color: skyblue;
-    }
+    } */
 
     #single-column-layout h1 {
         font-size: 36px;
@@ -63,9 +63,9 @@ body {
 
 @media screen and (max-width: 450px) {
 
-    body{
+    /* body{
         background-color: red;
-    }
+    } */
 
     #nav {
         flex-direction: column;

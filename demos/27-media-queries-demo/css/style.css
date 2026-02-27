@@ -22,10 +22,47 @@ body {
     font-size: 18px;
 }
 
+#single-column-layout {
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+#single-column-layout h1 {
+    text-align: center;
+    font-size: 48px;
+}
+
+#basic-grid-gallery {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+#basic-grid-gallery img {
+    width: 100%;
+}
+
+/* TABLET BREAKPOINT */
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: skyblue;
+    }
+
+    #single-column-layout h1 {
+        font-size: 36px;
+    }
+
+    #basic-grid-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* !!!!!!!!!!!!!!!!!!!MOBILE BREAKPOINT!!!!!!!!!!!!!!!!!!! */
 
 @media screen and (max-width: 450px) {
-    
+
     body{
         background-color: red;
     }
@@ -33,5 +70,9 @@ body {
     #nav {
         flex-direction: column;
         align-items: center;
+    }
+
+    #single-column-layout h1 {
+        font-size: 30px;
     }
 }

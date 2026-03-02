@@ -132,7 +132,6 @@ body {
 
 #gallery img.fix2 {
     object-position: center;
-    max-width: 350px;
 }
 
 #gallery img.fix3 {
@@ -148,7 +147,7 @@ body {
     }
 
     #gallery img.fix2 {
-        max-width: 300px;
+        max-width: 350px;
         justify-content: center;
     }
 
@@ -190,6 +189,10 @@ body {
 
     #gallery img {
         object-fit: cover;
+    }
+
+    #gallery img.fix2 {
+        max-width: none;
     }
 
     .card-container {

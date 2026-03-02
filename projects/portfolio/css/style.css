@@ -131,7 +131,8 @@ body {
 }
 
 #gallery img.fix2 {
-    object-position: bottom center;
+    object-position: center;
+    max-width: 350px;
 }
 
 #gallery img.fix3 {
@@ -146,17 +147,17 @@ body {
         background-color: rgb(0, 255, 8);
     }
 
-    #gallery {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 350px;
-        gap: 24px;
+    #gallery img.fix2 {
+        max-width: 300px;
+        justify-content: center;
     }
 
-    #gallery img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+    .card-container .card h2 {
+        font-size: 22px;
+    }
+
+    .card-container .card a {
+        font-size: 17px;
     }
 }
 
@@ -189,6 +190,12 @@ body {
 
     #gallery img {
         object-fit: cover;
+    }
+
+    .card-container {
+        flex-wrap: wrap;
+        width: 400px;
+        margin: 0px auto;
     }
 
     .card-container .card h2 {

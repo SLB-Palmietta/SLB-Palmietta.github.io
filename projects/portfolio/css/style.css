@@ -6,3 +6,69 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    padding: 24px;
+    align-items: center;
+}
+
+#navbar a {
+    font-size: 18px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 25px;
+}
+
+#navbar a.brand-name {
+    font-size: 26px;
+    padding: 10px;
+    margin-right: auto;
+}
+
+#hero {
+    background-image: url(../images/urban-hi-res-1ui7.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 56px;
+    margin: 0px;
+}
+
+#column {
+    max-width: 1500px;
+    margin: 48px auto;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 18px;
+}
+
+#gallery img {
+    flex: 1;
+    object-fit: cover;
+    height: 350px;
+}
+
+#gallery img.fix {
+    object-position: bottom;
+}
+
+#gallery img.fix2 {
+    object-position: bottom center;
+}
+
+#gallery img.fix3 {
+    object-position: 0px -210px;
+}

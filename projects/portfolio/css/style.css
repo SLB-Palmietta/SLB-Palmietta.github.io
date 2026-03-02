@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,12 +7,13 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: bla;
 }
 
 #navbar {
     display: flex;
     justify-content: center;
-    background-color: gray;
+    background-color: rgb(0, 0, 0);
     padding: 24px;
     align-items: center;
 }
@@ -20,32 +23,94 @@ body {
     text-decoration: none;
     font-size: 20px;
     padding: 0px 25px;
+    color: white;
+    font-family: "Noto Serif Display", serif;
+    letter-spacing: 1.5px;
 }
 
 #navbar a.brand-name {
-    font-size: 26px;
+    font-size: 28px;
     padding: 10px;
     margin-right: auto;
+    font-family: "Noto Serif Display", serif;
+    font-weight: bold;
+    letter-spacing: 0px;
 }
 
 #hero {
     background-image: url(../images/urban-hi-res-1ui7.jpg);
     background-size: cover;
     height: 80vh;
-    background-position: center;
+    background-position: center center;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 #hero h1 {
-    color: white;
-    font-size: 56px;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
     margin: 0px;
+    font-family: "Noto Serif Display", serif;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Serif Display", serif;
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+}
+
+#hero .gradient {
+    display: flex;
+    background: linear-gradient(0deg,  rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.552));
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
 }
 
 #column {
     max-width: 1500px;
     margin: 48px auto;
+}
+
+#column .card-container {
+    display: flex;
+    gap: 40px;
+}
+
+#column .card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 36px 0px;
+    padding: 40px 55px;
+    flex: 1;
+    text-align: center;
+}
+
+#column h2 {
+    color: white;
+    margin: 0px;
+    padding-bottom: 20px;
+    font-family: "Noto Serif Display", serif;
+    letter-spacing: 1.5px;
+}
+
+#column .card a {
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    border-radius: 12px;
+    border: 2px solid white;
+    color: white;
+    letter-spacing: 0.5px;
 }
 
 #gallery {
@@ -70,5 +135,6 @@ body {
 }
 
 #gallery img.fix3 {
-    object-position: 0px -210px;
+    /* object-position: 0px -210px; */
+    object-position: center;
 }

@@ -19,7 +19,6 @@ body {
 }
 
 #navbar a {
-    font-size: 18px;
     text-decoration: none;
     font-size: 20px;
     padding: 0px 25px;
@@ -82,6 +81,7 @@ body {
 #column .card-container {
     display: flex;
     gap: 40px;
+    padding: 18px;
 }
 
 #column .card {
@@ -166,6 +166,22 @@ body {
         background-color: aqua;
     }
 
+    #navbar a {
+        font-size: 18px;
+    }
+
+    #navbar a.brand-name {
+        font-size: 24px;
+    }
+
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #hero a {
+        font-size: 16px;
+    }
+
     #gallery {
         display: flex;
         flex-direction: column;
@@ -173,5 +189,13 @@ body {
 
     #gallery img {
         object-fit: cover;
+    }
+
+    .card-container .card h2 {
+        font-size: 20px;
+    }
+
+    .card-container .card a {
+        font-size: 15px;
     }
 }

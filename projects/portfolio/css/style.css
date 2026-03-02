@@ -75,7 +75,7 @@ body {
 }
 
 #column {
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 48px auto;
 }
 
@@ -137,4 +137,18 @@ body {
 #gallery img.fix3 {
     /* object-position: 0px -210px; */
     object-position: center;
+}
+
+@media screen and (max-width: 1351px) {
+    body {
+        background-color: aqua;
+    }
+
+    #gallery {
+        flex-direction: column;
+    }
+
+    #gallery img {
+        object-fit: cover;
+    }
 }
